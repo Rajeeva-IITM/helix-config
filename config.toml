@@ -1,4 +1,4 @@
-theme = "kaolin-valley-dark"
+theme = "dracula"
 
 [editor]
 line-number = "relative"
@@ -22,6 +22,10 @@ mode.select = "SELECT"
 
 [keys.normal]
 C-s = ":w"
+"C-/"= "toggle_comments"
 
 [keys.normal.space]
-q = ":q"
+q = {q = ":q"}
+
+[keys.insert]
+"C-/"= "toggle_comments"
