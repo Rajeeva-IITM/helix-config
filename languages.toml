@@ -1,0 +1,15 @@
+[language-server.pylsp]
+command = "pyls"
+
+[[language]]
+name = "python"
+formatter = { command = "ruff check"}
+auto-format = true
+
+[language-server.pylsp.config.pylsp.plugins]
+pycodestyle = {enabled = false, maxLineLength = 88}
+pydocstyle = {enabled = false}
+autopep8 = {enabled = false}
+yapf = {enabled = false}
+ruff = {enabled = true}
+mypy = {enabled = true, live_mode = true, strict = true}
