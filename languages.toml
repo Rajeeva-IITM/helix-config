@@ -1,9 +1,14 @@
 [language-server.pylsp]
 command = "pyls"
 
+[language-server.pyrefly]
+command = "pyrefly"
+args = ["lsp"]
+
 [[language]]
 name = "python"
-formatter = { command = "ruff check"}
+language-servers = ['basedpyright']
+formatter = { command = "ruff", args=['check']}
 auto-format = true
 
 [language-server.pylsp.config.pylsp.plugins]

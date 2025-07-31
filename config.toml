@@ -5,6 +5,7 @@ line-number = "relative"
 bufferline = "always"
 color-modes = true
 true-color = true
+auto-format = false # Ruff does this weird thing when I save file again, destroys everything
 
 [editor.cursor-shape]
 insert = "bar"
