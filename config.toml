@@ -26,6 +26,7 @@ C-s = ":w"
 
 [keys.normal.space]
 q = {q = ":q"}
+b = {q = ":buffer-close"}
 
 [keys.insert]
 "C-/"= "toggle_comments"
