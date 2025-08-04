@@ -1,4 +1,4 @@
-theme = "dracula"
+theme = "everforest_dark"
 
 [editor]
 line-number = "relative"
@@ -26,7 +26,11 @@ C-s = ":w"
 
 [keys.normal.space]
 q = {q = ":q"}
-b = {q = ":buffer-close"}
+b = {q = ":buffer-close", d = ":buffer-close"}
 
 [keys.insert]
 "C-/"= "toggle_comments"
+C-s = ":w"
+
+[keys.normal.g]
+b = "buffer_picker"
