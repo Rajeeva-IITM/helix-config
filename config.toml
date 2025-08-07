@@ -6,6 +6,11 @@ bufferline = "always"
 color-modes = true
 true-color = true
 auto-format = false # Ruff does this weird thing when I save file again, destroys everything
+cursorline = true
+rulers = [120]
+
+[editor.indent-guides]
+character = "╎"
 
 [editor.cursor-shape]
 insert = "bar"
