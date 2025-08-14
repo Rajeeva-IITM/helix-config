@@ -5,11 +5,19 @@ command = "pyls"
 command = "pyrefly"
 args = ["lsp"]
 
+[[language-server.tinymist]]
+command = "tinymist"
+
 [[language]]
 name = "python"
 language-servers = ['basedpyright']
 formatter = { command = "ruff", args=['check']}
 auto-format = true
+
+
+[[language]]
+name = "typst"
+language-servers= ["tinymist"]
 
 [language-server.pylsp.config.pylsp.plugins]
 pycodestyle = {enabled = false, maxLineLength = 88}
