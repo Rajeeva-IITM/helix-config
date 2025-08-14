@@ -5,7 +5,7 @@ command = "pyls"
 command = "pyrefly"
 args = ["lsp"]
 
-[[language-server.tinymist]]
+[language-server.tinymist]
 command = "tinymist"
 
 [[language]]
