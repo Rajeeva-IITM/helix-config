@@ -11,7 +11,7 @@ My personal [Helix](https://helix-editor.com/) editor configuration.
 
 2. Clone this repo to `~/.config/helix/`:
    ```sh
-   git clone <repo-url> ~/.config/helix
+   git clone https://github.com/Rajeeva-IITM/helix-config.git ~/.config/helix
    ```
 
 3. Install dependencies:
